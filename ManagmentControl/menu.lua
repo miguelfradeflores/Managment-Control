@@ -53,7 +53,7 @@ function scene:create( event )
 	backGround.y=_H/2
 
 	goToDesignButton = widget.newButton{
-		label="New venue",		
+		label="Nueva Plantilla",		
 		labelColor={ default = {0.1}, over={0.5} },
 		defaultFile="button.png",	overFile="button-over.png",
 		width=150, height=90,
@@ -64,7 +64,7 @@ function scene:create( event )
     goToDesignButton.y =  _H*0.26 ;goToDesignButton.isVisible=true
 
 	goToCredsButton = widget.newButton{
-		label="Credits",		
+		label="Creditos",		
 		labelColor={ default = {0.1}, over={0.5} },
 		defaultFile="button.png",	overFile="button-over.png",
 		width=150, height=90,
@@ -76,7 +76,7 @@ function scene:create( event )
     goToCredsButton.y =  _H*0.86 
 
 	goToSettingsButton = widget.newButton{
-		label="Settings",		
+		label="Ajustes",		
 		labelColor={ default = {0.1}, over={0.5} },
 		defaultFile="button.png",	overFile="button-over.png",
 		width=150, height=90,
@@ -89,7 +89,7 @@ function scene:create( event )
 
 
 	goToReportButton = widget.newButton{
-		label="Load venue",		
+		label="Cargar Plantilla",		
 		labelColor={ default = {0.1}, over={0.5} },
 		defaultFile="button.png",	overFile="button-over.png",
 		width=150, height=90,
