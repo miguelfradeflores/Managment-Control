@@ -14,6 +14,7 @@ idioma = 1
 local extension=".ogg"
 local composer = require "composer"
 local database = require("database")
+local db = require("db")
   local options = {
       effect = "zoomInOut",
       time = 800
@@ -63,6 +64,8 @@ end
 
 if database.checkForSavedLanguage() == 0 then
 	defineLanguage()
+
 else
 	change()
+	db.listarAtributos()
 end
