@@ -44,7 +44,14 @@ function createDatabase( )
 
  	local defaultConection = "INSERT INTO "..table4.." VALUES(1, 'BasicVenue','SM58_1','01V96i_1','Stage1','Stage1' );"
 
- 	
+--  	insert into empleados (CI,Ciudad,Fecha_Nacimiento,Fecha_Ingreso,Genero,Primer_Apellido,Primer_Nombre,Segundo_Apellido,Segundo_Nombre) values (4345321,'La Paz','1994-05-04','2018-06-06','M','Pastor','Sebastian','Ploskonka',null);
+-- insert into empleados (CI,Ciudad,Fecha_Nacimiento,Fecha_Ingreso,Genero,Primer_Apellido,Primer_Nombre,Segundo_Apellido,Segundo_Nombre) values (4345321,'La Paz','1994-05-04','2018-06-06','M','Pastor','Sebastian','Ploskonka',null);
+-- insert into empleados (CI,Ciudad,Fecha_Nacimiento,Fecha_Ingreso,Genero,Primer_Apellido,Primer_Nombre,Segundo_Apellido,Segundo_Nombre) values (4345321,'La Paz','1994-05-04','2018-06-06','M','Pastor','Sebastian','Ploskonka',null);
+-- insert into empleados (CI,Ciudad,Fecha_Nacimiento,Fecha_Ingreso,Genero,Primer_Apellido,Primer_Nombre,Segundo_Apellido,Segundo_Nombre) values (4345321,'La Paz','1994-05-04','2018-06-06','M','Pastor','Sebastian','Ploskonka',null);
+-- insert into empleados (CI,Ciudad,Fecha_Nacimiento,Fecha_Ingreso,Genero,Primer_Apellido,Primer_Nombre,Segundo_Apellido,Segundo_Nombre) values (4345321,'La Paz','1994-05-04','2018-06-06','M','Pastor','Sebastian','Ploskonka',null);
+-- insert into empleados (CI,Ciudad,Fecha_Nacimiento,Fecha_Ingreso,Genero,Primer_Apellido,Primer_Nombre,Segundo_Apellido,Segundo_Nombre) values (4345321,'La Paz','1994-05-04','2018-06-06','M','Pastor','Sebastian','Ploskonka',null);
+-- insert into empleados (CI,Ciudad,Fecha_Nacimiento,Fecha_Ingreso,Genero,Primer_Apellido,Primer_Nombre,Segundo_Apellido,Segundo_Nombre) values (4345321,'La Paz','1994-05-04','2018-06-06','M','Pastor','Sebastian','Ploskonka',null);
+
 
 
 
